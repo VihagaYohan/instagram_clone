@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:instagram_clone/screens/auth/login_screen.dart';
+import 'package:instagram_clone/screens/auth/register_screen.dart';
 import 'firebase_options.dart';
 
 // responsive
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark()
             .copyWith(scaffoldBackgroundColor: mobileBackgroundColor),
         home:
-            LoginScreen() /* const ResponsiveLayout(
+            RegisterScreen() /* const ResponsiveLayout(
         mobileScreenLayout: MobileScreenLayout(),
         webScreenLayout: WebScreenLayout(),
       ), */
