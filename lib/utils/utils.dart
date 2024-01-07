@@ -11,3 +11,5 @@ pickImage(ImageSource source) async {
     print("No image selected");
   }
 }
+
+showSnackBar() {}
